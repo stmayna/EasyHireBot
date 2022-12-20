@@ -4,7 +4,7 @@ require __DIR__ . '/vendor/autoload.php';
 
 $bot_api_key  = '5961232438:AAExGsqkhQarNtIlvLPExiDJ2XoV6EtjP34';
 $bot_username = 'easy_hire_bot';
-$hook_url     = 'https://your-domain/path/to/hook.php';
+$hook_url     = 'https://easy-hire-bot.vercel.app/api/index.php';
 
 try {
     // Create Telegram API object
