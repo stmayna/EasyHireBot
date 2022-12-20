@@ -2,14 +2,15 @@
 // Load composer
 require __DIR__ . '/vendor/autoload.php';
 
-$bot_api_key  = '5961232438:AAExGsqkhQarNtIlvLPExiDJ2XoV6EtjP34';
-$bot_username = 'easy_hire_bot';
+// Library
+use Longman\TelegramBot\Entities\Update;
+
 $hook_url     = 'https://easy-hire-bot.vercel.app/api/hook.php';
 // $result = $telegram->setWebhook($hook_url, ['certificate' => '/path/to/certificate']);
 
 try {
     // Create Telegram API object
-    $telegram = new Longman\TelegramBot\Telegram($bot_api_key, $bot_username);
+    $telegram = new Longman\TelegramBot\Telegram($config['api_key'], $config['bot_username']);
 
     // Set webhook
     $result = $telegram->setWebhook($hook_url);
