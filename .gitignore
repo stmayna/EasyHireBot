@@ -3,3 +3,10 @@
 
 # PHP
 /vendor
+
+# Composer
+composer.phar
+composer.lock
+
+# Private Data
+config.php
