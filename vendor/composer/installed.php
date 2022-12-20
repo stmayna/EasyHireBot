@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'easyhirebot/appstarter',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => NULL,
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => 'f084e4430b61aa85c5347cca3979bb6d8590442f',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,9 +11,9 @@
     ),
     'versions' => array(
         'easyhirebot/appstarter' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => NULL,
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => 'f084e4430b61aa85c5347cca3979bb6d8590442f',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -127,6 +127,15 @@
             'reference' => '869329b1e9894268a8a61dabb69153029b7a8c97',
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/polyfill-php72',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'tracy/tracy' => array(
+            'pretty_version' => 'v2.9.5',
+            'version' => '2.9.5.0',
+            'reference' => '89936aa9fc428e14736c637ad535bcce6ddc6382',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../tracy/tracy',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
