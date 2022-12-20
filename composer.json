@@ -1,9 +1,6 @@
 {
-  "name": "easyhirebot/appstarter",
-  "type": "project",
   "require": {
-    "php": ">=7.3",
-    "longman/telegram-bot": "^0.35.0",
-    "tracy/tracy": "^2.6.0"
+    "php": "^8.1",
+    "longman/telegram-bot": "^0.35.0"
   }
 }
