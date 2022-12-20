@@ -81,8 +81,8 @@ return [
 
     // Set custom Upload and Download paths
     'paths'        => [
-        'download' => __DIR__ . '/Download',
-        'upload'   => __DIR__ . '/Upload',
+        'download' => __DIR__ . '/download',
+        'upload'   => __DIR__ . '/upload',
     ],
 
     // Requests Limiter (tries to prevent reaching Telegram API limits)
