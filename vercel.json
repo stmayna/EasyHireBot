@@ -1,6 +1,6 @@
 {
   "functions": {
-    "api/index.php": {
+    "api/hook.php": {
       "runtime": "vercel-php@0.5.2"
     }
   },
@@ -9,6 +9,6 @@
       "source": "/favicon.ico",
       "destination": "https://juicy.vercel.app/favicon.ico"
     },
-    { "source": "/(.*)", "destination": "/api/index.php" }
+    { "source": "/(.*)", "destination": "/api/hook.php" }
   ]
 }

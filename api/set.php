@@ -2,10 +2,11 @@
 // Load composer
 require __DIR__ . '/vendor/autoload.php';
 
-// Library
-use Longman\TelegramBot\Entities\Update;
+// Load all configuration options
+/** @var array $config */
+$config = require __DIR__ . '/config.php';
 
-$hook_url     = 'https://easy-hire-bot.vercel.app/api/hook.php';
+$hook_url = 'https://easy-hire-bot.vercel.app/api/hook.php';
 // $result = $telegram->setWebhook($hook_url, ['certificate' => '/path/to/certificate']);
 
 try {

@@ -59,15 +59,15 @@ class StartCommand extends SystemCommand
      * @return ServerResponse
      * @throws TelegramException
      */
-    public function execute(): ServerResponse
-    {
-        $message = $this->getMessage();
-        // If you use deep-linking, get the parameter like this:
-        // $deep_linking_parameter = $this->getMessage()->getText(true);
+    // public function execute(): ServerResponse
+    // {
+    //     $message = $this->getMessage();
+    //     // If you use deep-linking, get the parameter like this:
+    //     // $deep_linking_parameter = $this->getMessage()->getText(true);
 
-        return $this->replyToChat(
-            'Hi there!' . PHP_EOL .
-                'Type /help to see all commands!'
-        );
-    }
+    //     return $this->replyToChat(
+    //         'Hi there!' . PHP_EOL .
+    //             'Type /help to see all commands!'
+    //     );
+    // }
 }
